@@ -1,0 +1,18 @@
+#!/usr/bin/python
+# coding: utf8
+
+
+TGRMBOT_TOKEN = "YOUR TELEGRAM BOT TOKEN"
+
+TEAMUP_APIKEY = "YOUR TEAMUP API KEY"
+TEAMUP_APIURL = "https://api.teamup.com"
+TEAMUP_APICALENDAR = "YOUR CALENDAR ID"
+
+TEAMUP_APISUBCALENDAR = {
+            'YOUR SUBCALENDARID1': 'Raum Klein',
+            'YOUR SUBCALENDARID2': 'Raum Gross (Vorne)',
+            'YOUR SUBCALENDARID3': 'Raum Gross (Hinten)'
+        }
+
+INTERVAL_MINUTES = 5 
+
