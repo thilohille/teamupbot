@@ -8,20 +8,8 @@ from dateutil import parser
 
 from telegram.ext import Updater
 import logging
+from conf import *
 
-TGRMBOT_TOKEN = "YOUR TELEGRAM BOT TOKEN"
-
-TEAMUP_APIKEY = "YOUR TEAMUP API KEY"
-TEAMUP_APIURL = "https://api.teamup.com"
-TEAMUP_APICALENDAR = "YOUR CALENDAR ID"
-
-TEAMUP_APISUBCALENDAR = {
-            'YOUR SUBCALENDARID1': 'Raum Klein',
-            'YOUR SUBCALENDARID2': 'Raum Gross (Vorne)',
-            'YOUR SUBCALENDARID3': 'Raum Gross (Hinten)'
-        }
-
-INTERVAL_MINUTES = 5 
 
 def tu_getchanges(bot, job):
     tu_headers = {'Teamup-Token': TEAMUP_APIKEY}
